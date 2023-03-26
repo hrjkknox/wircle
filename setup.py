@@ -4,7 +4,7 @@ setup(
     ext_modules=[
 		Extension(
 			name="wircle",
-            sources=["src/wirclemodule.c"]
+            sources=["src/wircle/wirclemodule.c"]
 		)
 	]
 )
